@@ -190,6 +190,14 @@
     <Compile Include="Migrations\202004060257287_PopulateDB.Designer.cs">
       <DependentUpon>202004060257287_PopulateDB.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202004061002445_ViewModel.cs" />
+    <Compile Include="Migrations\202004061002445_ViewModel.Designer.cs">
+      <DependentUpon>202004061002445_ViewModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004061018502_AddForeignKeystoGig.cs" />
+    <Compile Include="Migrations\202004061018502_AddForeignKeystoGig.Designer.cs">
+      <DependentUpon>202004061018502_AddForeignKeystoGig.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -287,6 +295,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202004060257287_PopulateDB.resx">
       <DependentUpon>202004060257287_PopulateDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004061002445_ViewModel.resx">
+      <DependentUpon>202004061002445_ViewModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004061018502_AddForeignKeystoGig.resx">
+      <DependentUpon>202004061018502_AddForeignKeystoGig.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
