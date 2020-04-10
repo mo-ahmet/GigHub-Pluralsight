@@ -26,6 +26,14 @@ textarea {
 .field-validation-error {
     color: red;
 }
+
+.voffset{ margin-top: 2px;}
+.voffset1{ margin-top: 5px;}
+.voffset2{ margin-top: 10px;}
+.voffset3{ margin-top: 20px;}
+.voffset4{ margin-top: 40px;}
+.voffset5{ margin-top: 80px;}
+
 /* overriding Bootstrap */
 .navbar-inverse {
     background-color: #ff4342;
@@ -100,11 +108,13 @@ textarea {
     top: 0;
     left: 70px; 
 }
-gigs > li .details .artist {
+.gigs > li .details .artist {
     font-weight: bold;
     display: block;
 }
-gigs > li .details .genre {
+.gigs > li .details .genre {
     font-size: 14px;
-
+}
+.btn-sm {
+    margin-left: 5px;
 }
